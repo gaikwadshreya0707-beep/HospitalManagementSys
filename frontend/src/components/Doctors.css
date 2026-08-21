@@ -1,0 +1,89 @@
+.search-box{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-box input{
+    width: 300px;
+    padding: 10px;
+}
+
+.search-box select{
+    width: 200px;
+    padding: 10px;
+}
+
+.doctors-container{
+    padding:30px;
+    background:#f5f7fb;
+    min-height:100vh;
+}
+
+.doctors-container h1{
+    text-align:center;
+    color:#0d47a1;
+    margin-bottom:25px;
+}
+
+.search-box{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.search-box input,
+.search-box select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+}
+
+.search-box input{
+    width:300px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:#1565c0;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+.STATUS-badge{
+    display:inline-block;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+    color:white;
+    min-width:100px;
+    text-align:center;
+}
+
+/* Green */
+.available{
+    background:#28a745;
+}
+
+/* Red */
+.leave{
+    background:#dc3545;
+}
+
+/* Orange */
+.busy{
+    background:#fd7e14;
+}
