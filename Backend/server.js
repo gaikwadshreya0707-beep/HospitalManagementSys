@@ -298,7 +298,7 @@ app.post("/doctors", async (req, res) => {
       ]
     );
 
-    res.STATUS(201).json({
+    res.status(201).json({
       message: "Doctor Added Successfully"
     });
 
